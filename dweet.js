@@ -54,7 +54,7 @@ function duelingWavesColors(t) {
       Math.floor(255/2) + Math.floor(255/2) * Math.cos((t*0.7) + (i/2)));
 
     x.fillRect(i*rectWidth, 0, rectWidth, ((h/2) - (h/100)) + (((h/3) * Math.sin((0.5 * t) + (i/4)))));
-    x.fillStyle = R(255, 255, 255);
+    x.fillStyle = R(0, 0, 0);
     x.fillRect(i*rectWidth, 0, rectWidth, ((h/2) + (h/100)) + (((h/3) * Math.sin((1 * t) + (i/3)))));
     
   }
