@@ -19,7 +19,7 @@ var startT = +new Date();
 
 function u(t) {
   // your code here
-  duelingWavesColors(t);
+  matrixBinary(t);
 }
 
 function loop() {
@@ -57,5 +57,22 @@ function duelingWavesColors(t) {
     x.fillStyle = R(20, 20, 20);
     x.fillRect(i*rectWidth, 0, rectWidth, ((h/2) + (h/100)) + (((h/3) * Math.sin((1 * t) + (i/3)))));
     
+  }
+}
+
+function matrixBinary(t) {
+  x.fillStyle = rgb(0, 0, 0, 0.06);
+  x.fillRect(0, 0, 2e3, 2e3);
+  for (let px of [30, 25, 20, 15, 10, 7]){
+      for (i=0; i < 2e3; i+=px+5) {
+          for (let p of [2, 3,]) {
+              x.font = px + "px monospace";
+              x.fillStyle = rgb(0, 255, 0);
+              let yCoord = ((1e6*sin(Math.pow(i + (p*111), p))) + (t*px*15))%1100;
+              let adjustedY = yCoord - (yCoord % px);
+              let char = Math.round(sin((adjustedY + (i*1e3) + 1e5) * (adjustedY + (i*1e3) + 1e5)) + 0.5);
+              x.fillText(char, i, adjustedY, 80);
+          }
+      }
   }
 }
