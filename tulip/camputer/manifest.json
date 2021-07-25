@@ -1,0 +1,8 @@
+{
+  "short_name": "One Year",
+  "name": "A website commemorating one year of NoCamDo",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

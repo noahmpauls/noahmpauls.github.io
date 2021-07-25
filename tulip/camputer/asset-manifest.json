@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.80c2f0b4.chunk.css",
+    "main.js": "./static/js/main.da784c8f.chunk.js",
+    "main.js.map": "./static/js/main.da784c8f.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.0e79fb0f.js",
+    "runtime-main.js.map": "./static/js/runtime-main.0e79fb0f.js.map",
+    "static/js/2.3b943fe7.chunk.js": "./static/js/2.3b943fe7.chunk.js",
+    "static/js/2.3b943fe7.chunk.js.map": "./static/js/2.3b943fe7.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.a61eeca8cea5b23a9d0398aafbb70345.js": "./precache-manifest.a61eeca8cea5b23a9d0398aafbb70345.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.80c2f0b4.chunk.css.map": "./static/css/main.80c2f0b4.chunk.css.map",
+    "static/js/2.3b943fe7.chunk.js.LICENSE": "./static/js/2.3b943fe7.chunk.js.LICENSE",
+    "static/media/amazing.jpg": "./static/media/amazing.269c223b.jpg",
+    "static/media/cheetos.jpg": "./static/media/cheetos.2ab5995f.jpg",
+    "static/media/cold.jpg": "./static/media/cold.56bf931d.jpg",
+    "static/media/crazy.jpg": "./static/media/crazy.f8f9f22c.jpg",
+    "static/media/disney.jpg": "./static/media/disney.ae389cac.jpg",
+    "static/media/essential.jpg": "./static/media/essential.dd7a6ebf.jpg",
+    "static/media/explosion.jpg": "./static/media/explosion.8aabbb0e.jpg",
+    "static/media/glass.jpg": "./static/media/glass.60d10f6d.jpg",
+    "static/media/shakespeare.jpg": "./static/media/shakespeare.88527ef1.jpg",
+    "static/media/sunshine.jpg": "./static/media/sunshine.915f0a67.jpg",
+    "static/media/wreath.jpg": "./static/media/wreath.cd15abad.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e79fb0f.js",
+    "static/js/2.3b943fe7.chunk.js",
+    "static/css/main.80c2f0b4.chunk.css",
+    "static/js/main.da784c8f.chunk.js"
+  ]
+}
