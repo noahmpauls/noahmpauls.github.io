@@ -327,6 +327,8 @@ const overlay = document.getElementById("image-overlay");
 const nextButton = document.getElementById("next");
 const prevButton = document.getElementById("previous");
 
+preloadImages();
+
 setTimeout(() => {
   content.hidden = false;
   content.classList.remove("hidden");
@@ -342,6 +344,13 @@ window.addEventListener("keyup", function(e) {
   if (key === "ArrowRight") goNext();
   else if (key === "ArrowLeft") goPrevious();
 });
+
+function preloadImages() {
+  for (const pic in pics) {
+    let img = new Image();
+    img.src = pics[pic].url;
+  }
+}
 
 function goNext() {
   if (index === pages.length - 1) return;
